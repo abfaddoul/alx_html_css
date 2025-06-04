@@ -1,0 +1,84 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  background: #f2f3f7;
+  color: #222;
+  line-height: 1.6;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+}
+
+header, footer {
+  background-color: #4f46e5;
+  color: white;
+  padding: 1rem;
+  text-align: center;
+}
+
+main {
+  flex: 1;
+  padding: 2rem;
+  max-width: 1000px;
+  margin: 0 auto;
+  background-color: white;
+  border-radius: 12px;
+  box-shadow: 0 4px 12px rgba(0,0,0,0.1);
+}
+
+h1, h2 {
+  margin-bottom: 1rem;
+  color: #333;
+}
+
+a {
+  color: #4f46e5;
+  text-decoration: none;
+  transition: 0.3s;
+}
+
+a:hover {
+  text-decoration: underline;
+}
+
+ul {
+  list-style: none;
+  padding-left: 1rem;
+}
+
+li::before {
+  content: '• ';
+  color: #4f46e5;
+}
+
+button {
+  padding: 0.5rem 1rem;
+  border: none;
+  background-color: #4f46e5;
+  color: white;
+  border-radius: 6px;
+  cursor: pointer;
+  transition: background 0.3s;
+}
+
+button:hover {
+  background-color: #3730a3;
+}
+.tweet {
+  border-bottom: 1px solid #ddd;
+  padding: 1rem 0;
+}
+
+.tweet:last-child {
+  border-bottom: none;
+}
+
+.tweet h3 {
+  color: #4f46e5;
+  margin-bottom: 0.5rem;
+}
