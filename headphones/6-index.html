@@ -1,0 +1,295 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Headphones</title>
+    <link rel="icon" type="image/x-icon" href="imgs/favicon.ico">
+    <link rel="icon" type="image/png" href="imgs/favicon.png">
+    <link rel="stylesheet" href="6-styles.css">
+    <link rel="stylesheet" href="holberton_school-icon/style.css">
+</head>
+<body>
+    <!-- Header -->
+    <header class="header">
+        <div class="container">
+            <div class="header-content">
+                <div class="logo">
+                    <img src="imgs/logo_headphones.png" alt="Headphones Logo">
+                </div>
+                <nav class="nav">
+                    <a href="#what-we-do">what we do</a>
+                    <a href="#our-results">our results</a>
+                    <a href="#contact">contact us</a>
+                </nav>
+            </div>
+        </div>
+    </header>
+
+    <!-- Hero Section -->
+    <section class="hero">
+        <div class="container">
+            <div class="hero-content">
+                <div class="hero-text">
+                    <h1>Lorem ipsum dolor set amet lorem ipsum</h1>
+                    <p>Lorem ipsum dolor set amet lorem ipsum dolor set</p>
+                    <button class="btn-primary">CALL TO ACTION</button>
+                </div>
+            </div>
+            <div class="hero-text-bottom">
+                <p>Lorem ipsum dolor set amet lorem ipsum dolor set amet lorem ipsum dolor set amet lorem ipsum dolor set amet lorem ipsum dolor set amet lorem ipsum dolor set amet lorem ipsum dolor set amet lorem ipsum dolor set amet lorem ipsum dolor set amet lorem ipsum dolor set</p>
+            </div>
+        </div>
+    </section>
+
+    <!-- What we do Section -->
+    <section class="section" id="what-we-do">
+        <div class="container">
+            <div class="section-header">
+                <h2 class="section-title">What we do…</h2>
+                <p class="section-description">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.</p>
+            </div>
+            <div class="services-grid">
+                <div class="service-card">
+                    <div class="service-icon">
+                        <span class="holberton_school-icon-ic_sound"></span>
+                    </div>
+                    <h3 class="service-title">Lorem ipsum</h3>
+                    <p class="service-description">Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+                </div>
+                <div class="service-card">
+                    <div class="service-icon">
+                        <span class="holberton_school-icon-ic_video"></span>
+                    </div>
+                    <h3 class="service-title">Lorem ipsum</h3>
+                    <p class="service-description">Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+                </div>
+                <div class="service-card">
+                    <div class="service-icon">
+                        <span class="holberton_school-icon-ic_music"></span>
+                    </div>
+                    <h3 class="service-title">Lorem ipsum</h3>
+                    <p class="service-description">Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+                </div>
+                <div class="service-card">
+                    <div class="service-icon">
+                        <span class="holberton_school-icon-ic_hearing"></span>
+                    </div>
+                    <h3 class="service-title">Lorem ipsum</h3>
+                    <p class="service-description">Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Our results Section -->
+    <section class="section results-section" id="our-results">
+        <div class="container">
+            <div class="section-header">
+                <h2 class="section-title">Our results speak for themselves</h2>
+                <p class="section-description">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.</p>
+            </div>
+            <div class="results-grid">
+                <div class="result-card">
+                    <div class="result-pentagon">
+                        <div class="result-number">+2%</div>
+                    </div>
+                    <p class="result-description">Lorem ipsum dolor</p>
+                </div>
+                <div class="result-card">
+                    <div class="result-pentagon">
+                        <div class="result-number">+2%</div>
+                    </div>
+                    <p class="result-description">Lorem ipsum dolor</p>
+                </div>
+                <div class="result-card">
+                    <div class="result-pentagon">
+                        <div class="result-number">+2%</div>
+                    </div>
+                    <p class="result-description">Lorem ipsum dolor</p>
+                </div>
+                <div class="result-card">
+                    <div class="result-pentagon">
+                        <div class="result-number">+2%</div>
+                    </div>
+                    <p class="result-description">Lorem ipsum dolor</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section class="section contact-section" id="contact">
+        <div class="container">
+            <div class="section-header">
+                <h2 class="section-title">Contact us</h2>
+            </div>
+            <div class="contact-form-container">
+                <form class="contact-form" id="contactForm">
+                    <div class="form-group">
+                        <input type="text" id="name" name="name" class="form-input" required>
+                        <label for="name" class="form-label">Name</label>
+                        <span class="form-error" id="nameError"></span>
+                    </div>
+                    <div class="form-group">
+                        <input type="email" id="email" name="email" class="form-input" required>
+                        <label for="email" class="form-label">Email</label>
+                        <span class="form-error" id="emailError"></span>
+                    </div>
+                    <div class="form-group">
+                        <textarea id="message" name="message" class="form-input form-textarea" rows="4" required></textarea>
+                        <label for="message" class="form-label">Your message</label>
+                        <span class="form-error" id="messageError"></span>
+                    </div>
+                    <button type="submit" class="btn-primary form-submit">CALL TO ACTION</button>
+                </form>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-content">
+                <div class="footer-logo">
+                    <img src="imgs/logo_headphones.png" alt="Headphones Logo">
+                </div>
+                <div class="footer-social">
+                    <a href="#" class="social-link">
+                        <span class="holberton_school-icon-ic_facebook"></span>
+                    </a>
+                    <a href="#" class="social-link">
+                        <span class="holberton_school-icon-ic_twitter"></span>
+                    </a>
+                    <a href="#" class="social-link">
+                        <span class="holberton_school-icon-ic_instagram"></span>
+                    </a>
+                </div>
+            </div>
+            <div class="footer-bottom">
+                <p>&copy; headphones 2020</p>
+            </div>
+        </div>
+    </footer>
+
+    <script>
+        // Contact form validation and animation
+        document.addEventListener('DOMContentLoaded', function() {
+            const form = document.getElementById('contactForm');
+            const inputs = document.querySelectorAll('.form-input');
+            
+            // Add focus and blur event listeners for floating labels
+            inputs.forEach(input => {
+                input.addEventListener('focus', function() {
+                    this.parentElement.classList.add('focused');
+                });
+                
+                input.addEventListener('blur', function() {
+                    if (this.value === '') {
+                        this.parentElement.classList.remove('focused');
+                    }
+                    validateField(this);
+                });
+                
+                input.addEventListener('input', function() {
+                    if (this.value !== '') {
+                        this.parentElement.classList.add('focused');
+                    }
+                    clearError(this);
+                });
+            });
+            
+            // Form submission
+            form.addEventListener('submit', function(e) {
+                e.preventDefault();
+                
+                let isValid = true;
+                inputs.forEach(input => {
+                    if (!validateField(input)) {
+                        isValid = false;
+                    }
+                });
+                
+                if (isValid) {
+                    // Show success message
+                    showSuccessMessage();
+                    form.reset();
+                    // Remove focused class from all form groups
+                    document.querySelectorAll('.form-group').forEach(group => {
+                        group.classList.remove('focused');
+                    });
+                }
+            });
+            
+            function validateField(field) {
+                const value = field.value.trim();
+                const fieldName = field.name;
+                let isValid = true;
+                let errorMessage = '';
+                
+                // Required field validation
+                if (value === '') {
+                    errorMessage = `${fieldName.charAt(0).toUpperCase() + fieldName.slice(1)} is required`;
+                    isValid = false;
+                } else {
+                    // Specific validations
+                    switch (fieldName) {
+                        case 'name':
+                            if (value.length < 2) {
+                                errorMessage = 'Name must be at least 2 characters long';
+                                isValid = false;
+                            }
+                            break;
+                        case 'email':
+                            const emailRegex = /^[^\s@]+@[^\s@]+\.[^\s@]+$/;
+                            if (!emailRegex.test(value)) {
+                                errorMessage = 'Please enter a valid email address';
+                                isValid = false;
+                            }
+                            break;
+                        case 'message':
+                            if (value.length < 10) {
+                                errorMessage = 'Message must be at least 10 characters long';
+                                isValid = false;
+                            }
+                            break;
+                    }
+                }
+                
+                if (!isValid) {
+                    showError(field, errorMessage);
+                } else {
+                    clearError(field);
+                }
+                
+                return isValid;
+            }
+            
+            function showError(field, message) {
+                const errorElement = document.getElementById(field.name + 'Error');
+                errorElement.textContent = message;
+                field.parentElement.classList.add('error');
+            }
+            
+            function clearError(field) {
+                const errorElement = document.getElementById(field.name + 'Error');
+                errorElement.textContent = '';
+                field.parentElement.classList.remove('error');
+            }
+            
+            function showSuccessMessage() {
+                const submitButton = document.querySelector('.form-submit');
+                const originalText = submitButton.textContent;
+                
+                submitButton.textContent = 'MESSAGE SENT!';
+                submitButton.style.backgroundColor = '#28a745';
+                
+                setTimeout(() => {
+                    submitButton.textContent = originalText;
+                    submitButton.style.backgroundColor = '';
+                }, 3000);
+            }
+        });
+    </script>
+</body>
+</html>
